@@ -1,20 +1,16 @@
-// Import the 'express' module along with 'Request' and 'Response' types from express
-import express, { Request, Response } from 'express';
+import express, { Request, Response } from 'express'
 
-// Create an Express application
-const app = express();
+  const app = express()
+  const port = process.env.PORT || 8080
 
-// Specify the port number for the server
-const port: number = 3000;
+  app.get('/', (_req: Request, res: Response) => {
+    return res.send('Express Typescript on Vercel')
+  })
 
-// Define a route for the root path ('/')
-app.get('/', (req: Request, res: Response) => {
-  // Send a response to the client
-  res.send('Hello bello, TypeScript + Node.js + Express!');
-});
+  app.get('/ping', (_req: Request, res: Response) => {
+    return res.send('pong 🏓')
+  })
 
-// Start the server and listen on the specified port
-app.listen(port, () => {
-  // Log a message when the server is successfully running
-  console.log(`Server is running on http://localhost:${port}`);
-});
+  app.listen(port, () => {
+    return console.log(`Server is listening on ${port}`)
+  })
