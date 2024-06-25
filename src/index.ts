@@ -1,16 +1,26 @@
 import express, { Request, Response } from 'express'
+import dotenv from 'dotenv';
 
-  const app = express()
-  const port = process.env.PORT || 8080
+const apiRouter = require('./service/ApiRouter');
+const config = require('../appsettings.json');
+const app = express();
 
-  app.get('/', (_req: Request, res: Response) => {
-    return res.send('Express Typescript on Vercel')
-  })
+dotenv.config();
 
-  app.get('/ping', (_req: Request, res: Response) => {
-    return res.send('pong 🏓')
-  })
+app.use(apiRouter);
+app.get('/', async (req: Request, res: Response) => {
+    res.status(200).send(config.Version).end()
+});
 
-  app.listen(port, () => {
-    return console.log(`Server is listening on ${port}`)
-  })
+const port = process.env.PORT || 8080;
+
+app.listen(port, () => {
+  console.log(`App listening on port ${port}`)
+  console.log('Press Ctrl+C to quit.')
+});
+
+
+
+
+
+

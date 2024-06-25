@@ -1,0 +1,1 @@
+{"version":3,"file":"UnitDocument.js","sourceRoot":"","sources":["../../src/model/UnitDocument.ts"],"names":[],"mappings":";;;AAAA,iDAA8C;AAE9C,MAAa,YAAa,SAAQ,2BAAY;IAK1C,YAAa,IAAY,EAAE,WAA0B;QAEjD,KAAK,EAAE,CAAC;QAER,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;QACjB,IAAI,CAAC,WAAW,GAAG,WAAW,CAAC;IACnC,CAAC;CACJ;AAZD,oCAYC"}

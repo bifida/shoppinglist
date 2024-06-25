@@ -1,0 +1,1 @@
+{"version":3,"file":"ShoppingListDocument.js","sourceRoot":"","sources":["../../src/model/ShoppingListDocument.ts"],"names":[],"mappings":";;;AAAA,iDAA8C;AAI9C,MAAa,oBAAqB,SAAQ,2BAAY;IAOlD;QAEI,KAAK,EAAE,CAAC;QAER,IAAI,CAAC,IAAI,GAAG,SAAS,CAAC;QACtB,IAAI,CAAC,iBAAiB,GAAG,EAAE,CAAC;QAC5B,IAAI,CAAC,MAAM,uCAAwB,CAAC;IACxC,CAAC;CACJ;AAfD,oDAeC;AAAA,CAAC"}

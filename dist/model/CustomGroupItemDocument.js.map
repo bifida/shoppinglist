@@ -1,0 +1,1 @@
+{"version":3,"file":"CustomGroupItemDocument.js","sourceRoot":"","sources":["../../src/model/CustomGroupItemDocument.ts"],"names":[],"mappings":";;;AACA,iEAA8D;AAE9D,MAAa,uBAAwB,SAAQ,2CAAoB;IAE7D,YAAY,IAAY,EAAE,WAA0B,EAAE,MAAuB,EAAE,QAAuB;QAElG,KAAK,CAAC,IAAI,EAAE,WAAW,EAAE,MAAM,EAAE,QAAQ,CAAC,CAAC;IAC/C,CAAC;CACJ;AAND,0DAMC;AAAA,CAAC"}
